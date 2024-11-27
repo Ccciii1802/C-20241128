@@ -7,22 +7,24 @@ using System.Threading.Tasks;
 
 namespace _04_01
 {
-    internal class Program
+    internal class Program06
     {
         static void Main()
         {
-            string enteredUsername = "ADMIN";
-            string storedUsername = "admin";
-            if(string.Compare(enteredUsername, storedUsername, true) == 0)
+            string fileName = "report.pdf";
+
+            bool isPdf = fileName.EndsWith("pdf");
+
+            if (isPdf)
             {
-                Console.WriteLine("登入成功");
+                Console.WriteLine($"{fileName}是PDF文件。");
             }
             else
             {
-                Console.WriteLine("登入失敗");
+                Console.WriteLine($"{fileName}不是PDF文件。");
             }
             Console.ReadLine();
-            
+
         }
     }
 }

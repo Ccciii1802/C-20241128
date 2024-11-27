@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace _04_01
 {
-    internal class Program
+    internal class Program01
     {
         static void Main()
         {
             string enteredUsername = "ADMIN";
             string storedUsername = "admin";
-            if(string.Compare(enteredUsername, storedUsername, true) == 0)
+            if (string.Compare(enteredUsername, storedUsername, true) == 0)
             {
                 Console.WriteLine("登入成功");
             }
@@ -22,7 +22,7 @@ namespace _04_01
                 Console.WriteLine("登入失敗");
             }
             Console.ReadLine();
-            
+
         }
     }
 }

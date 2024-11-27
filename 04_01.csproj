@@ -43,13 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="01_02.cs" />
+    <Compile Include="02_01.cs" />
     <Compile Include="04_01.cs" />
     <Compile Include="03_01.cs" />
     <Compile Include="05_01.cs" />
+    <Compile Include="06_01.cs" />
+    <Compile Include="07_01.cs" />
+    <Compile Include="08_01.cs" />
+    <Compile Include="09_01.cs" />
+    <Compile Include="10_01.cs" />
+    <Compile Include="11_01.cs" />
+    <Compile Include="12_01.cs" />
+    <Compile Include="13_01.cs" />
     <Compile Include="20_01.cs" />
     <Compile Include="19_01.cs" />
     <Compile Include="18_01.cs" />
     <Compile Include="17_01.cs" />
+    <Compile Include="16_01.cs" />
+    <Compile Include="15_01.cs" />
+    <Compile Include="14_01.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
