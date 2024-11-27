@@ -45,6 +45,11 @@
   <ItemGroup>
     <Compile Include="04_01.cs" />
     <Compile Include="03_01.cs" />
+    <Compile Include="05_01.cs" />
+    <Compile Include="20_01.cs" />
+    <Compile Include="19_01.cs" />
+    <Compile Include="18_01.cs" />
+    <Compile Include="17_01.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

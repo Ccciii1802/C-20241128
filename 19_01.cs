@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace _04_01
 {
-    internal class Program
+    internal class Program19
     {
         static void Main()
         {
-            string str = "Good Morning";
-            str=str.Replace("Morning", "Evening");
-            Console.WriteLine(str);
+            string input = "      Hello,World";
+            string result = input.TrimStart();
+            Console.WriteLine(result);
             Console.ReadLine();
-            
+
         }
     }
 }

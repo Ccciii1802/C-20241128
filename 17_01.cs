@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace _04_01
 {
-    internal class Program
+    internal class Program17
     {
         static void Main()
         {
             string str = "Good Morning";
-            str=str.Replace("Morning", "Evening");
+            str = str.Replace("Morning", "Evening");
             Console.WriteLine(str);
             Console.ReadLine();
-            
+
         }
     }
 }
